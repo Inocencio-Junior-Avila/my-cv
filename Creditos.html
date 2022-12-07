@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Calculador de Monto de credicto (ITLA)</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript">
+        function multiplicacion(){
+
+            var Num1 = Number(document.getElementById('Numero1').value);
+
+            var Resultado = Num1 * 520;
+            document.getElementById('Resultado').value = Resultado;
+        }
+
+    </script>
+</head>
+<body>
+<center><h2>Credito a Monto (pesos)</h2>
+    <p><b>Ingrese la cantidad de Credictos</b></p>
+    <input type="text" id="Numero1"> 
+    <p><b>Monto a Pagar</b></p>
+    <input type="text" id="Resultado"> <br><br>
+    <input type="button" value="Calcular" onclick="multiplicacion();">
+</center> 
+</body>
+</html>

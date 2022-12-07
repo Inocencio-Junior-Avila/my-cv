@@ -1,0 +1,98 @@
+:root{
+    --nord0: #2e3440;
+    --nord1:  #3B4252;
+    --nord2: #434C5E;
+    --nord3: #4C566A;
+    --nord4: #D8DEE9;
+    --nord5: #E5E9F0;
+    --nord6: #ECEFF4;
+    --nord7: #19479b;
+    --nord8: #88C0D0;
+    --nord9: #81A1C1;
+    --nord10: #5E81AC;
+    --nord11: #BF616A;
+    --nord12: #D08770;
+    --nord13: #EBCB8B;
+    --nord14: #A3BE8C;
+    --nord15: #B48EAD;
+    --font: BlinkMacSystemFont, -apple-system, "Segoe UI","Roboto","Ubuntu",
+    "Cantarell","Fira Sans","Droid Sans","Helvetica Nue Helvetica","Arial", 
+    sans-serif;
+}
+
+/*
+* {outline: 1px solid red;}
+*/
+
+body {
+    font-family: var(--font);
+    color: var(--nord1);
+}
+
+header, section {
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+    color: #3B4252;
+    border-left: solid;
+    border-right: solid;
+    border-color: var(--nord1);
+}
+
+header{
+    background-color: var(--nord7);
+    color: var(--nord6);
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+article{
+    width: 60%;
+    margin-left: 16px;
+    margin-top: 0px;
+}
+
+aside{
+    width: 60%;
+    margin-left: 16px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-right: 100px;
+}
+
+a, a:link, a:visited {
+
+    text-decoration: none;
+    color: var(--nord7);
+
+}
+
+th,td{
+    padding: 16px;
+}
+
+.banderas {
+    background-color: #cccccc;
+    width: 16px;
+    height: 16px;
+}
+
+.es1{
+    background-color: red ;
+    height: 30.00%;
+}
+.es2{
+    background-color: yellow ;
+    height: 39.99%;
+}
+.es3{
+    background-color: red ;
+    height: 30.00%;
+}
+
+.hobbies{
+    display: flex;
+}
